@@ -1,0 +1,11 @@
+import React, { useState } from 'react';
+
+const App = () => {
+  const [data, setData] = useState([]);
+  const [searchTerm, setSearchTerm] = useState('');
+
+  return <div>Data Filter Component</div>;
+};
+
+export default App;
+
